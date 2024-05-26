@@ -7,5 +7,5 @@ class Display:
         self.car_park = car_park
 
     def __str__(self):
-        carpark_info = f"Car Park at {location}, with {capacity}"
-        return carpark_info
+        display_info = f"{id}: Welcome to the {car_park}"
+        return display_info
