@@ -10,3 +10,7 @@ class CarPark:
     def __str__(self):
         carpark_info = f"Car Park at {location}, with {capacity}"
         return carpark_info
+
+    def register(self, component):
+        if not isinstance(component, (Sensor, Display)):
+            raise TypeError("Object must be a Sensor or Display")
