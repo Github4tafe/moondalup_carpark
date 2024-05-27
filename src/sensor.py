@@ -11,14 +11,7 @@ class Sensor:
 
 
 class EntrySensor(Sensor):
-    def __init__(self, id, is_active=False, car_park="Unknown"):
-        self.id = id
-        self.is_active = is_active
-        self.car_park = car_park
+
 
 
 class ExitSensor(Sensor):
-    def __init__(self, id, is_active=False, car_park="Unknown"):
-        self.id = id
-        self.is_active = is_active
-        self.car_park = car_park
