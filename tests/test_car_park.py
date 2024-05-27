@@ -1,6 +1,4 @@
 import unittest
-#import sys
-#sys.path.append("src/car_park.py")
 from car_park import CarPark
 
 
