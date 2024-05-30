@@ -10,6 +10,12 @@ class Display:
         display_info = f"{id}: Welcome to the {car_park}"
         return display_info
 
+    def update(self, updates):
+        for key, value in updates.items():
+            setattr(self, key, value)
+'''
+
     def update(self, data):
         for key, value in data.items():
             print(f"{key}: {value}")
+'''

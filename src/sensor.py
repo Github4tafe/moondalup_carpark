@@ -1,9 +1,9 @@
 
-from car_park import CarPark
+#from car_park import CarPark
 from abc import ABC, abstractmethod
 
 
-class Sensor(ABC):
+class Sensor:
     def __init__(self, id, is_active=False, car_park="Unknown"):
         self.id = id
         self.is_active = is_active
